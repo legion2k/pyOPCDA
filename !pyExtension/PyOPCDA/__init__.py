@@ -1,0 +1,53 @@
+# -*- coding: utf-8 -*-
+
+from .Client import TClient
+from .Group  import TGroup
+from .Tag   import TTag
+
+from .PyOPCDA3 import OPC_QUALITY_BAD,\
+     OPC_QUALITY_COMM_FAILURE,\
+     OPC_QUALITY_CONFIG_ERROR,\
+     OPC_QUALITY_DEVICE_FAILURE,\
+     OPC_QUALITY_EGU_EXCEEDED,\
+     OPC_QUALITY_GOOD,\
+     OPC_QUALITY_LAST_KNOWN,\
+     OPC_QUALITY_LAST_USABLE,\
+     OPC_QUALITY_LOCAL_OVERRIDE,\
+     OPC_QUALITY_MASK,\
+     OPC_QUALITY_NOT_CONNECTED,\
+     OPC_QUALITY_OUT_OF_SERVICE,\
+     OPC_QUALITY_SENSOR_CAL,\
+     OPC_QUALITY_SENSOR_FAILURE,\
+     OPC_QUALITY_SUB_NORMAL,\
+     OPC_QUALITY_UNCERTAIN,\
+     OPC_QUALITY_WAITING_FOR_INITIAL_DATA,\
+     \
+     VT_EMPTY,\
+     VT_BOOL,\
+     VT_BSTR,\
+     VT_CY,\
+     VT_DATE,\
+     VT_I1,\
+     VT_I2,\
+     VT_I4,\
+     VT_I8,\
+     VT_INT,\
+     VT_R4,\
+     VT_R8,\
+     VT_UI1,\
+     VT_UI2,\
+     VT_UI4,\
+     VT_UI8,\
+     VT_UINT,\
+     VT_ARRAY,\
+     VT_TYPEMASK
+     #\
+     #OPC_STATUS_COMM_FAULT,\
+     #OPC_STATUS_FAILED,\
+     #OPC_STATUS_MASK,\
+     #OPC_STATUS_NOCONFIG,\
+     #OPC_STATUS_RUNNING,\
+     #OPC_STATUS_SUSPENDED,\
+     #OPC_STATUS_TEST,\
+
+
