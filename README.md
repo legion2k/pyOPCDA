@@ -1,2 +1,4 @@
-# pyOPCDAClient - python extension for OPC DA v3. ( written in Delphi 10.4 )
+# pyOPCDAClient - python extension for OPC DA
+# pyOPCDAClient - расширение python-а для доступа к OPC DA
+
 MIT License
